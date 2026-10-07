@@ -1,0 +1,1 @@
+var Providers=function(){var e=[{id:"fiberplus",name:"Fiberplus",logo:"assets/fiberplus.png",requiresAuth:!0,free:!1,source:{type:"xtream",host:"http://192.168.200.6:25461",m3uType:"m3u_plus",output:"m3u8"}}];return{getAll:function(){return e},getById:function(r){for(var t=0;t<e.length;t++)if(e[t].id===r)return e[t];return null}}}();

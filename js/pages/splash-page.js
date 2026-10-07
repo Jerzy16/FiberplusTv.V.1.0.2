@@ -1,0 +1,1 @@
+var SplashPage={render:function(){document.getElementById("app").innerHTML='<div class="splash-page"><img class="splash-logo" src="assets/fiberplus2.svg" alt="Fiberplus" /><div class="splash-footer">IPTV</div></div>'}};

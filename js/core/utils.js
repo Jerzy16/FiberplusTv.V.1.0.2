@@ -1,0 +1,1 @@
+var Utils={escapeHtml:function(e){var t=document.createElement("div");return t.appendChild(document.createTextNode(e||"")),t.innerHTML},escapeAttr:function(e){return(e||"").replace(/"/g,"&quot;")}};

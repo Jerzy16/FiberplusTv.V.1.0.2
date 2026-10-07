@@ -1,0 +1,10 @@
+{
+  "id": "com.fiberplus.iptv",
+  "version": "1.0.2",
+  "vendor": "Fiberplus",
+  "type": "web",
+  "main": "index.html",
+  "title": "Fiberplus",
+  "icon": "assets/fiberplus.png",
+  "largeIcon": "assets/fiberplus.png"
+}

@@ -1,0 +1,1 @@
+var Keyboard=function(){function e(e){if(function(e){return 461===e.keyCode||"GoBack"===e.key||"Escape"===e.key}(e)){e.preventDefault();var n=Store.get();n.onBack?n.onBack():Router.navigate(n.backRoute||"#login/fiberplus")}else{var t=Store.get().navHandler;t&&t(e)}}return{init:function(){document.addEventListener("keydown",e)}}}();
